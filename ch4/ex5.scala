@@ -1,6 +1,5 @@
 import scala.collection.JavaConversions.mapAsScalaMap
-val in = new java.util.Scanner(new java.io.File("D:\\Users\\DarthVictor\\Documents\\Scala\\scala-impatient\\ch4\\ex2.scala"
-))
+val in = new java.util.Scanner(new java.io.File("ex2.scala"))
 var vocabulary = new java.util.TreeMap[String, Int];
 
 while(in.hasNext()) {
